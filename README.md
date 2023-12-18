@@ -6,5 +6,12 @@ Le code se situera dans le fichier code qui aura 2 sections: analyse et main. Le
 fichier main contiendra le code permettant d'effectuer des transactions selon ce qui a été trouvé dans la partie d'analyse. 
 
 ### Directives particulières
-Du aux limitations de GitHub, les fichiers plutot volumineux de data historique, par exemple, seront gardés en dehors du repository. Ils peuvent être accédé par les liens one drive gardés dans le fichier text `data`.
+Du aux limitations de GitHub, les fichiers plutot volumineux de data historique, par exemple, seront gardés en dehors du repository. Ils peuvent être accédé par les liens one drive gardés dans le fichier text `data`. Une fois installé, il faut créer un folder "data" qui doit être un niveau au dessus de projet_crypto et y mettre les fichiers contenant les données historiques. Exemple ci dessous:
+
+-projet_crypto 
+    -data
+        -ETHUSD_1.csv
+    -projet_crypto(git)
+        -code
+        ...
 
