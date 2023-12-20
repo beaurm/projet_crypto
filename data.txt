@@ -1,5 +1,5 @@
 Les données historiques viennent de https://support.kraken.com/hc/en-us/articles/360047124832-Downloadable-historical-OHLCVT-Open-High-Low-Close-Volume-Trades-data
-Les fichiers sont sous format: Time,Open,High,Low,Close,Volume,Trades ou time correspond au secondes depuis unix (https://currentmillis.com/) *ce lien prend des millisecondes
+Les fichiers sont sous format: Time,Open,High,Low,Close,Volume,Trades, où Time correspond aux secondes depuis unix (https://currentmillis.com/) *ce lien prend des millisecondes
 Les NaN représentent des périodes de temps sans trade. Les fichiers comportant f_ au début sont déjà formatés selon les notebook dans code/formatting.
 
 Liens d'acces pour les données historiques
